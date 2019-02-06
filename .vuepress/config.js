@@ -67,7 +67,7 @@ module.exports = {
                  * Ensure default resets and normalised classes ar enot removed by PurgeCSS
                  */
                 whitelistPatterns: [
-                    /^(h\d|p$|ul|li$|div|ol|table|td$|th$|thead|tbody|main|input|button|form|md-)/
+                    /^(h\d|p$|ul|li$|div|ol|table|td$|th$|thead|tbody|main|input|button|form|md-|hljs)/
                 ],
 
             }),
