@@ -41,8 +41,9 @@ module.exports = {
                 content: [
                     '.vuepress/theme/**/*.vue',
                     '.vuepress/theme/**/*.md',
-                    '.vuepress/theme/mixins/*.js',
+                    '.vuepress/theme/**/*.js',
                     '.vuepress/theme/templates/*.html',
+                    '.vuepress/theme/styles/*.styl',
                 ],
 
                 extractors: [
@@ -58,7 +59,7 @@ module.exports = {
                                 return content.match(/[A-z0-9-:\/]+/g) || [];
                             }
                         },
-                        extensions: ['css', 'html', 'js', 'vue', 'md']
+                        extensions: ['css', 'html', 'js', 'vue', 'md', 'styl']
                     }
                 ],
 
@@ -66,7 +67,7 @@ module.exports = {
                  * Ensure default resets and normalised classes ar enot removed by PurgeCSS
                  */
                 whitelistPatterns: [
-                    /^(h\d|p$|ul|li$|div|ol|table|td$|th$|thead|tbody|main|input|button|form)/
+                    /^(h\d|p$|ul|li$|div|ol|table|td$|th$|thead|tbody|main|input|button|form|md-)/
                 ],
 
             }),
