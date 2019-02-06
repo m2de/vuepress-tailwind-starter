@@ -1,5 +1,7 @@
 # Vuepress Tailwind Starter Theme
 
+![Vuepress Tailwind Starter Theme](./vuepress-tailwind.png)
+
 This boilerplate repository is designed to serve as a starting point for creating custom websites with Vuepress. Because it replaces the original theme entirely, a lot of out-of-the-box functionality you get with the default Vuepress installation is not available.
 
 ## Why Vuepress
