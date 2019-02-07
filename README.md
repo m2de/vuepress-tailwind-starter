@@ -4,7 +4,7 @@
 
 This boilerplate repository is designed to serve as a starting point for creating custom websites with Vuepress. Because it replaces the original theme entirely, a lot of out-of-the-box functionality you get with the default Vuepress installation is not available.
 
-You preview the [live demo](https://vuepress-tailwind-starter.netlify.com/) for this [Github Repo](https://github.com/m2de/vuepress-tailwind-starter) hosted on [Netlify](https://www.netlify.com/).
+You can preview the [live demo](https://vuepress-tailwind-starter.netlify.com/) for this [Github Repo](https://github.com/m2de/vuepress-tailwind-starter) hosted on [Netlify](https://www.netlify.com/).
 
 ## Why Vuepress
 
@@ -50,5 +50,5 @@ I haven't yet found a way to run a different development vs production config. A
 
 ## Support
 
-Any contribution to this package are welcome. Look me up on Twitter [@m2de_io](https://twitter.com/m2de_io), I'd love to hear from anyone with feedback and see what you have created using Vuepress and Tailwind.
+Any contributions to this package are welcome. Look me up on Twitter [@m2de_io](https://twitter.com/m2de_io), I'd love to hear from anyone with feedback and see what you have created using Vuepress and Tailwind.
 
