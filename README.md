@@ -41,3 +41,14 @@ npm run build
 ## Known issues
 
 I haven't yet found a way to run a different development vs production config. As a result, purgecss is not run when new classes are added to the source files on `npm run dev`. You will either need to restart the process or comment out the postcss lines from the `.vuepress/config.js` during development.
+
+## Roadmap
+
+* [ ] Fix dev build to run without Purge Css
+* [ ] Compile into regular installable Vuepress theme. Challenge will be the Tailwind config (waiting for 1.0)
+* [ ] Add more out of the box functionality like Nav and Search
+
+## Support
+
+Any contribution to this package are welcome. Look me up on Twitter [@m2de_io](https://twitter.com/m2de_io), I'd love to hear from anyone with feedback or even see what they have created using Vuepress and Tailwind.
+
