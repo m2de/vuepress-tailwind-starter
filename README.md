@@ -50,5 +50,5 @@ I haven't yet found a way to run a different development vs production config. A
 
 ## Support
 
-Any contribution to this package are welcome. Look me up on Twitter [@m2de_io](https://twitter.com/m2de_io), I'd love to hear from anyone with feedback or even see what they have created using Vuepress and Tailwind.
+Any contribution to this package are welcome. Look me up on Twitter [@m2de_io](https://twitter.com/m2de_io), I'd love to hear from anyone with feedback and see what you have created using Vuepress and Tailwind.
 
