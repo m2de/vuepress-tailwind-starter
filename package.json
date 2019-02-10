@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "dev": "vuepress dev --no-cache",
+    "build": "vuepress build --no-cache"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.1.0",
+    "@silvanite/vuepress-plugin-markdown-classes": "^1.0.0",
     "cssnano": "^4.1.8",
     "tailwindcss": "^0.7.3"
   }
