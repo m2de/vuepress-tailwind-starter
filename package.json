@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev --no-cache",
-    "build": "vuepress build --no-cache"
+    "dev": "NODE_ENV=development vuepress dev --no-cache",
+    "build": "NODE_ENV=production vuepress build --no-cache"
   },
   "keywords": [],
   "author": "",
