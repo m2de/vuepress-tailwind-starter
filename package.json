@@ -4,20 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development vuepress dev --no-cache",
-    "build": "NODE_ENV=production vuepress build --no-cache"
+    "debug": "node --inspect-brk=9229 node_modules/.bin/vuepress dev --debug --no-cache",
+    "debug-build": "node --inspect-brk=9229 node_modules/.bin/vuepress build --debug --no-cache",
+    "dev": "vuepress dev",
+    "build": "vuepress build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@silvanite/vuepress-plugin-markdown-classes": "^1.0.1",
+    "@silvanite/vuepress-plugin-tailwind": "^1.1.0",
     "markdown-it-highlightjs": "^3.0.0",
-    "vuepress": "^1.0.0-alpha.37"
+    "vuepress": "^1.0.0-alpha.44"
   },
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^1.1.0",
-    "cssnano": "^4.1.8",
-    "tailwindcss": "^0.7.4"
-  }
+  "devDependencies": {}
 }

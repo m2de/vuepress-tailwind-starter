@@ -43,7 +43,8 @@ npm run build
 ## Roadmap
 
 * [x] Fix dev build to run without Purge Css
-* [ ] Compile into regular installable VuePress theme. Challenge will be the Tailwind config (waiting for 1.0)
+* [x] Import Tailwind and Purge CSS through VuePress Plugins
+* [ ] Compile into regular installable VuePress theme. Challenge will be the Tailwind config (also waiting for 1.0)
 * [ ] Add more out of the box functionality like Nav and Search
 
 ## Support

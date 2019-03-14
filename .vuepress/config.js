@@ -15,8 +15,5 @@ module.exports = {
       md.use(require("markdown-it-highlightjs"), {});
     },
     anchor: { permalink: false }
-  },
-  postcss: {
-    plugins: require("./plugins")
   }
-};
+}
