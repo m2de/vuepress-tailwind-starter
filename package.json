@@ -13,10 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@silvanite/vuepress-plugin-markdown-classes": "^1.0.1",
     "@silvanite/vuepress-plugin-tailwind": "^1.1.0",
     "markdown-it-highlightjs": "^3.0.0",
-    "vuepress": "^1.0.0-alpha.44"
+    "vuepress": "^1.0.0-alpha.47"
   },
   "devDependencies": {}
 }
